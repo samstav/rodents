@@ -5,10 +5,10 @@
 
 #include <fstream>
 #include <iostream>
-#include <tchar.h>
+// #include <tchar.h>
 #include <string.h>
 #include <stdio.h>
-#include <conio.h>
+#include "conio.h"
 #include <math.h>
 #include <time.h>
 #pragma once

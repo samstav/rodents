@@ -175,7 +175,7 @@ else
 
 float pop_storage()
 {
-if(remainR>0);
+if(remainR>0)
 {
 for(int i=0;i<t;i++)   //trying to add remainR across each time step into popstorage
 {
@@ -295,7 +295,7 @@ return Nsum;
 };
 
 
-void main()
+int main()
 {
 
 const int species=1;  //we only have 2 species even though we designated the functions with 10
@@ -352,8 +352,4 @@ else {scale-=0.1; if (scale<0.00001) flag=1;}
 
 }
  getch();
-}
-
-
-
 }
